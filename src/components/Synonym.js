@@ -4,9 +4,9 @@ const Synonym = ({ mean }) => {
   return (
     <div className="row">
       {mean.map((val) =>
-        val.meanings.map((ant) => (
-          <div className="column" key={ant.synonyms}>
-            { ant.synonyms? <li>{ant.synonyms}</li>: ''}
+        val.meanings.map((ant,index) => (
+          <div className="column" key={index}>
+            { ant.synonyms? <li key={ant.synonyms}>{ant.synonyms}</li>: ''}
           </div>
           )
         )
