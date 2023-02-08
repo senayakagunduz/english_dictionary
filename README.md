@@ -1,5 +1,7 @@
 ## https://senayakagdz-englishdictionary.netlify.app/
 
+![english dictionary](https://user-images.githubusercontent.com/69090467/217550417-cecaee6b-013a-4bba-8d43-c9301f673caf.png)
+
 
 # Getting Started with Create React App
 
